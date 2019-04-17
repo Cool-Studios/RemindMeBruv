@@ -165,7 +165,7 @@ def info(bot, update, args):
     codu = getuser(chat_id)
 
     if len(args) == 0:
-        update.message.reply_text("Master, please insert the note that you want me to show in details!\n"
+        update.message.reply_text("Please insert the note that you want me to show in details!\n"
                                   "ex: /info <codEvent>")
     else:
         conn = sqlite3.connect('todo.db')
