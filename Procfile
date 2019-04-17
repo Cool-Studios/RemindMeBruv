@@ -1,1 +1,1 @@
-bot: python RemindMeBruv.py
+bot: python3 remindmebruv.py
