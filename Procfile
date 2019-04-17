@@ -1,1 +1,1 @@
-bot: python3 remindmebruv.py
+worker: python3 remindmebruv.py
